@@ -1,0 +1,72 @@
+@import "~@schalkneethling/mini/sass/vars/media-queries";
+@import "../vars/color-palette";
+
+.main-nav {
+  @media #{$mq-tablet-and-up} {
+    flex-basis: 70%;
+  }
+}
+
+.main-menu {
+  display: none;
+
+  @media #{$mq-tablet-and-up} {
+    @supports (display: flex) {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  a {
+    display: block;
+    padding: 10px;
+    padding-left: 0;
+    text-transform: uppercase;
+
+    @media #{$mq-tablet-and-up} {
+      margin-left: 30px;
+    }
+
+    &:link {
+      text-decoration: none;
+    }
+
+    &:link,
+    &:visited {
+      color: $menu-link-color;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $screenaml-active-link;
+    }
+
+    &.cta {
+      margin-top: 10px;
+
+      @media #{$mq-tablet-and-up} {
+        margin-top: inherit;
+      }
+    }
+
+    &[aria-current="page"] {
+      font-weight: bold;
+
+      @media #{$mq-tablet-and-up} {
+        border-bottom: 2px solid #333;
+      }
+    }
+  }
+}
+
+ul.show {
+  display: flex;
+  flex-flow: column;
+  margin-left: 10px;
+
+  @media #{$mq-tablet-and-up} {
+    flex-flow: row;
+    margin-left: inherit;
+  }
+}

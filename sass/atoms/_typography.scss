@@ -1,0 +1,98 @@
+@import "~@schalkneethling/mini/sass/vars/media-queries";
+@import "../vars/color-palette";
+
+@font-face {
+  font-family: "Lato";
+  font-display: swap;
+  src: url("/assets/typography/Lato-Regular.woff2") format("woff2"),
+    url("/assets/typography/Lato-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-display: swap;
+  src: url("/assets/typography/Lato-Bold.woff2") format("woff2"),
+    url("/assets/typography/Lato-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CaveatBrush";
+  font-display: swap;
+  src: url("/assets/typography/CaveatBrush-Regular.woff2") format("woff2"),
+    url("/assets/typography/CaveatBrush-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin h1-font-size() {
+  font-size: $h1-mobile-font-size;
+
+  @media #{$mq-tablet-and-up} {
+    font-size: $h1-font-size;
+  }
+}
+
+@mixin h2-font-size() {
+  font-size: $h2-mobile-font-size;
+
+  @media #{$mq-tablet-and-up} {
+    font-size: $h2-font-size;
+  }
+}
+
+@mixin h3-font-size() {
+  font-size: $h3-mobile-font-size;
+
+  @media #{$mq-tablet-and-up} {
+    font-size: $h3-font-size;
+  }
+}
+
+@mixin h4-font-size() {
+  font-size: $h4-mobile-font-size;
+
+  @media #{$mq-tablet-and-up} {
+    font-size: $h4-font-size;
+  }
+}
+
+h1 {
+  @include h1-font-size();
+}
+
+h2 {
+  @include h2-font-size();
+}
+
+h3 {
+  @include h3-font-size();
+}
+
+h4 {
+  @include h4-font-size();
+}
+
+.cursive {
+  font-family: "CaveatBrush", serif;
+}
+
+.keyword {
+  color: $screenaml-persian-green;
+  font-size: 3rem;
+
+  @media #{$mq-tablet-and-up} {
+    font-size: 4rem;
+  }
+}
+
+.small-text {
+  font-size: 1rem;
+
+  @media #{$mq-tablet-and-up} {
+    font-size: 0.8rem;
+  }
+}

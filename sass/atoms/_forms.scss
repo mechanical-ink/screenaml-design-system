@@ -1,0 +1,14 @@
+input[type="text"],
+input[type="email"] {
+  background-color: $screenaml-section-grey;
+  border: 0;
+  border-radius: 30px;
+  margin: 10px 0;
+  padding: 15px 20px;
+  width: 100%;
+
+  @media #{$mq-small-desktop-and-up} {
+    margin: inherit;
+    min-width: 200px;
+  }
+}

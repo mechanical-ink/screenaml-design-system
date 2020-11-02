@@ -1,0 +1,25 @@
+@import "~@schalkneethling/mini/sass/vars/media-queries";
+
+.main-menu-toggle {
+  position: absolute;
+  top: 42px;
+  right: 20px;
+  padding: 10px;
+
+  &::before {
+    display: block;
+    content: "";
+    background: transparent url("/assets/menu-open.svg") 0 0 no-repeat;
+    background-size: 18px 12px;
+    width: 18px;
+    height: 12px;
+  }
+
+  &.expanded::before {
+    background-image: url("/assets/menu-close.svg");
+  }
+
+  @media #{$mq-tablet-and-up} {
+    display: none;
+  }
+}

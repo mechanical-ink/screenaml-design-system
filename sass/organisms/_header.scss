@@ -1,0 +1,10 @@
+.page-header {
+  @media #{$mq-tablet-and-up} {
+    @supports (display: flex) {
+      display: flex;
+      align-items: center;
+      margin: 20px auto;
+      max-width: $max-page-width;
+    }
+  }
+}

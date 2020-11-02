@@ -1,0 +1,23 @@
+body {
+  margin: 10px;
+  font: 16px/1.5 Lato, sans-serif;
+}
+
+a {
+  &:link {
+    text-decoration: none;
+  }
+
+  &:link,
+  a:visited {
+    color: $screenaml-link;
+    padding: 5px 0;
+  }
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+    color: $screenaml-active-link;
+  }
+}

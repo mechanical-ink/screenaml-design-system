@@ -1,0 +1,14 @@
+.logo {
+  background: transparent url("/assets/logo.svg") 0 0 no-repeat;
+  background-size: 200px 64px;
+  display: block;
+  height: 64px;
+  width: 200px;
+
+  @media #{$mq-tablet-and-up} {
+    background-size: 250px 80px;
+    flex-basis: 300px;
+    height: 80px;
+    width: 250px;
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "screenaml-design-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [
+    "design system",
+    "storybook"
+  ],
+  "author": "Mechanical Ink",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.5",
+    "@schalkneethling/mini": "^0.1.0",
+    "@storybook/addon-a11y": "^6.0.21",
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-essentials": "^6.0.21",
+    "@storybook/addon-links": "^6.0.21",
+    "@storybook/html": "^6.0.21",
+    "@storybook/preset-scss": "^1.0.2",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "node-sass-chokidar": "^1.5.0",
+    "prettier": "^2.1.1",
+    "react-is": "^16.13.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.1",
+    "style-loader": "^1.2.1",
+    "stylelint": "^13.7.0",
+    "stylelint-a11y": "^1.2.3",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.18.0"
+  },
+  "calavera": {
+    "sass": true,
+    "eslint": true,
+    "prettier": true
+  }
+}

@@ -1,0 +1,57 @@
+.banner {
+  margin: 50px auto;
+  max-width: $max-page-width;
+
+  @media #{$mq-tablet-and-up} {
+    @supports (display: flex) {
+      align-items: center;
+      display: flex;
+      gap: 40px;
+
+      .banner-header {
+        flex-basis: 40%;
+      }
+
+      .banner-content {
+        flex-basis: 60%;
+      }
+    }
+  }
+
+  @media #{$mq-small-desktop-and-up} {
+    @supports (display: flex) {
+      .newsletter-subscribe {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  .cta {
+    margin-top: 10px;
+
+    @media #{$mq-small-desktop-and-up} {
+      margin: inherit;
+    }
+  }
+
+  &.banner-signup {
+    text-align: center;
+
+    .banner-header {
+      flex-basis: 60%;
+    }
+
+    .banner-content {
+      flex-basis: 40%;
+    }
+
+    .cta {
+      width: 100%;
+
+      @media #{$mq-tablet-and-up} {
+        width: inherit;
+      }
+    }
+  }
+}
