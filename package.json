@@ -34,7 +34,7 @@
     "sass": "^1.26.10",
     "sass-loader": "^10.0.1",
     "style-loader": "^1.2.1",
-    "stylelint": "^13.7.0",
+    "stylelint": "^13.7.2",
     "stylelint-a11y": "^1.2.3",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-recommended": "^3.0.0",
