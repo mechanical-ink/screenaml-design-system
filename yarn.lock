@@ -1329,10 +1329,10 @@
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
 
-"@schalkneethling/mini@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@schalkneethling/mini/-/mini-0.1.0.tgz#18bb91827df17a32f609281cc07cf66861232073"
-  integrity sha512-vv1WxuIkHW5bKk5FED+o0TPhRX1+o3C09oeyiGeEpe6cUdFra3LJVNQzHV1y4VvLLVD8cI+mVI9MLr04XMe6Lg==
+"@schalkneethling/mini@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@schalkneethling/mini/-/mini-0.1.1.tgz#5d039cbdbc0002a4c5db7b54a686b476bc96d426"
+  integrity sha512-xd5f9O2Q5Y+Km5OKunLZrPLUXyqqcuKiauAzkR0vJzfEqaL4Nn5ydbkGxbPI8wu+lGYBvqsy04iq9wnju+H5fw==
 
 "@storybook/addon-a11y@^6.0.21":
   version "6.0.21"
