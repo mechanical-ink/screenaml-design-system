@@ -16,7 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.11.5",
-    "@schalkneethling/mini": "^0.1.0",
+    "@schalkneethling/mini": "^0.1.1",
     "@storybook/addon-a11y": "^6.0.21",
     "@storybook/addon-actions": "^6.0.21",
     "@storybook/addon-essentials": "^6.0.21",
