@@ -19,7 +19,7 @@
     "@schalkneethling/mini": "^0.1.0",
     "@storybook/addon-a11y": "^6.0.21",
     "@storybook/addon-actions": "^6.0.21",
-    "@storybook/addon-essentials": "^6.0.21",
+    "@storybook/addon-essentials": "^6.2.2",
     "@storybook/addon-links": "^6.0.21",
     "@storybook/html": "^6.0.21",
     "@storybook/preset-scss": "^1.0.2",
